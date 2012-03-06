@@ -1,0 +1,17 @@
+
+This is (almost) the bare minimum to get a blinking LED on a STM32F4-Discovery board
+
+Works with the Codesourcery toolchain (arm-none-eabi-gcc (Sourcery CodeBench Lite 2011.09-69) 4.6.1)
+
+
+Three Step Guide:
+
+ cd blink
+ ./build.sh
+ ./flash main.elf
+
+
+Most headers are copied from CMSIS and STM's libs, startup is from XPCC (and sligthly modified).
+
+
+
